@@ -16,6 +16,8 @@ options(timeout = 600, scipen = 999)
 # scraping data: ----------------------------------------------------------
 df_raw = kshs_usd()
 
+# exporting final data
+kshs_usd_data_final()
 # ends --------------------------------------------------------------------
 
 
