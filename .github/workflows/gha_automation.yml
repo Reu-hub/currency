@@ -4,8 +4,6 @@ name: currency
 
 # Event - What starts this workflow?
 on:
-  push:
-    branches: [main]
   schedule:
     # Runs at 13:30 PM UTC/London or (4:30 PM Nairobi) or (8:30 AM New York)
     - cron: '30 13 * * *'
