@@ -5,10 +5,9 @@ name: currency
 # Event - What starts this workflow?
 on:
   schedule:
-    # Runs at 13:30 PM UTC/London or (4:30 PM Nairobi) or (8:30 AM New York)
-    - cron: '30 13 * * *'
+    # Runs at 23:30 PM UTC/London or (2:30 AM Nairobi) or (18:30 AM New York)
+    - cron: '30 23 * * *'
     # Runs at 21:30 PM UTC/London or (0:30 AM Nairobi) or (4:30 PM New York)
-    - cron: '30 21 * * *'
   workflow_dispatch:
 
 # Jobs - What the computer should do?
