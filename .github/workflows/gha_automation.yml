@@ -7,7 +7,6 @@ on:
   schedule:
     # Runs at 23:30 PM UTC/London or (2:30 AM Nairobi) or (18:30 AM New York)
     - cron: '30 23 * * *'
-    # Runs at 21:30 PM UTC/London or (0:30 AM Nairobi) or (4:30 PM New York)
   workflow_dispatch:
 
 # Jobs - What the computer should do?
