@@ -28,7 +28,7 @@ jobs:
 
       - name: Execute Script
         run: |
-          Rscript "R/currency_bot.R"
+          Rscript "R/00_currency_bot.R"
 
       - name: Commit results
         run: |
